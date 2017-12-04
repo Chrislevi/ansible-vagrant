@@ -1,0 +1,5 @@
+logs_dir: "/var/log/ansible-vag"
+vagrant_dir: "../.vagrant"
+playbooks_dir: "{{ lookup('pipe','pwd .') }}"
+box_user: "user"
+box_pass: "qwe123"
